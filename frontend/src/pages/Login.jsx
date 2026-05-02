@@ -24,7 +24,7 @@ const Login = () => {
     
     // Replace with your actual MongoDB test credentials
     const guestEmail = "harshitha@test.com"; 
-    const guestPassword = "your_password_here"; 
+    const guestPassword = "$2b$10$cOSKp3lgxO8aQJFx9i.2PuQiTspFEv0bB/VdFPSlKr2NjoxSbFu1O"; 
 
     try {
       await login(guestEmail, guestPassword);
